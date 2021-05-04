@@ -1,0 +1,29 @@
+{
+  "name": "learn-babel",
+  "version": "1.0.0",
+  "description": "###### 참고 사이트 - https://babeljs.io/ - https://www.npmjs.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jieunj6/learn-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jieunj6/learn-babel/issues"
+  },
+  "homepage": "https://github.com/jieunj6/learn-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1"
+  },
+  "babel": {
+    "presets": ["@babel/env"]
+  }
+}
